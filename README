@@ -1,0 +1,16 @@
+# Python script for download animes from Nyaa.si RSS using filters for select which episode will be downloaded
+
+# Implemented:
+    * JSON (For read and write config)
+    * BeautifulSoup and lxml: To get info from RSS
+    * Paho-MQTT: To get and send info using MQTT protocol
+    * libtorrent: To connect a torrent aggregator and download anime files.
+    * Requests: Get RSS file from WEB
+    * Threading: Just for isolate MQTT code
+
+# To do:
+    * To add commands for configure script during execution;
+    * GUI for select which anime will be downloaded;
+    * Send files using MQTT (Why not?);
+    * To permit download anime files on network directory directly;
+    * improve Threading Implementation.
